@@ -1,6 +1,11 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const PORT = 8000
+
+//handling local request
+app.use(cors())
+
 const rappers = {
     '21 savage': {
         'age': 29,
