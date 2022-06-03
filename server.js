@@ -3,7 +3,7 @@ const app = express()
 const cors = require('cors')
 const PORT = 8000
 
-//handling local request
+//handling local requests
 app.use(cors())
 
 const rappers = {
